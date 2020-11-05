@@ -1,0 +1,111 @@
+.footer-wrapper {
+    height: 400px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* Flexbox container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -4px;
+}
+
+.footer-wrapper > .center-column {
+    width: 250px;
+}
+
+/* Banner Image */
+.footer-wrapper > .center-column > .banner-image img {
+    width: 180px;
+    height: 100%;
+    /* filter: brightness (50%) */
+    /* *OR* */
+    opacity: 0.5;
+}
+
+.footer-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+/* Hours and Phone */
+.footer-wrapper > .center-column > .hours-phone {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-wrapper > .center-column > .hours-phone span {
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer-wrapper > .center-column > .hours-phone > .hours {
+    font-size: 0.8em;
+    color: #cea135;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.footer-wrapper >.center-column > .hours-phone {
+    font-family: "Ubuntu Condensed" , "sans-serif";
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+/* Links */
+.footer-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-wrapper > .links-wrapper > .nav-link {
+    font-size: 0.9em;
+}
+
+.footer-wrapper > .links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed" , "sans-serif";
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 0.9em;
+}
+
+.footer-wrapper > .links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 1px;
+}
+
+/* Social Media Line */
+.footer-wrapper > .center-column > .social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-wrapper > .center-column > .social-media i {
+    color: #cbcbcb;
+    transition: 0.5s;
+    font-size: 1em;
+}
+
+.footer-wrapper > .center-column > .social-media i:hover {
+    color: #cea135;
+}
+
+
+/* Copyright line */
+.footer-wrapper > .center-column > .copyright {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-wrapper > .center-column > .copyright {
+    font-family: "Roboto Slab" , "sans-serif";
+    font-size: 0.7em;
+}
